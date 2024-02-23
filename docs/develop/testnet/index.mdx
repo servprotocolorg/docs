@@ -1,0 +1,77 @@
+# Testnet
+
+import { chainConfig, handler } from '@site/src/utils/ChainConfig';
+
+:::tip
+Add SERV Testnet to Keplr.
+
+<button onClick={() => handler()} className="bg-red mt-4 hover:bg-red1 text-white font-bold py-2 px-4 rounded">
+  Add Configuration to Keplr
+</button>
+
+To add SERV to Metamask, head over [here](https://chainlist.org/?testnets=true&search=serv) to add Testnet and Mainnet.
+:::
+
+The SERV Testnet is a decentralized blockchain network
+that runs parallel to the Mainnet.
+It allows developers to test and deploy their decentralized applications (dApps)
+in a safe and secure environment without the risk of losing real funds.
+It is run by Validators using the same software as on the SERV Mainnet,
+which means it is built using the Ethereum Virtual Machine (EVM)
+and supports the Ethereum toolchain.
+This makes it compatible with a vast ecosystem
+of existing Ethereum-based applications and tools.
+
+Using the SERV Testnet provides several benefits for dApp developers.
+Firstly, it enables them to test and refine their smart contracts
+and dApps in a sandbox environment without the risk of making costly mistakes.
+Developers can experiment with different use cases and scenarios,
+simulate various network conditions,
+and stress test their applications to ensure they are scalable and resilient.
+Secondly, the SERV Testnet provides a community-driven
+and collaborative platform for developers to share knowledge, best practices, and code.
+This can help developers to speed up their development process
+and tap into a wealth of resources and expertise.
+
+Find out below how to connect to Testnet
+and request testnet tokens from the Faucet to start developing.
+Note, that tokens on Testnet don’t have actual value,
+so that you don’t need to worry about loosing funds.
+
+## Connect to Testnet
+
+:::tip
+Add SERV Testnet to Keplr.
+
+<button onClick={() => handler()} className="bg-red mt-4 hover:bg-red1 text-white font-bold py-2 px-4 rounded">
+  Add Configuration to Testnet
+</button>
+
+To add SERV to Metamask, head over [here](https://chainlist.org/?testnets=true&search=serv) to add Testnet and Mainnet.
+:::
+
+## Faucet
+
+import ProjectValue from '@site/src/components/ProjectValue';
+import Highlighter from '@site/src/components/Highlighter';
+
+The SERV Testnet [Faucet](https://faucet.evmos.dev/) distributes small amounts
+of <ProjectValue keyword="testnet_ticker" /> to anyone who can provide a valid
+testnet address. Users can request funds from the faucet either by using the
+Keplr or Metamask.
+
+Follow the [Metamask](./../../use/connect-your-wallet/metamask), [Keplr](./../../use/connect-your-wallet/keplr)
+or [Keyring](./../../protocol/concepts/keyring) guides for more info on how to setup your wallet account.
+
+After receiving funds from the faucet, view your account balance either by
+clicking on the Wallet extension or by using the [Testnet
+Explorer](https://testnet.mintscan.io/evmos-testnet).
+
+![faucet site](/img/faucet_web_page.png)
+
+### Faucet Addresses
+
+The public faucet addresses for the testnet are:
+
+- **Bech32**: [`sx1ht560g3pp729z86s2q6gy5ws6ugnut8r4uhyth`](https://testnet.mintscan.io/evmos-testnet/account/sx1ht560g3pp729z86s2q6gy5ws6ugnut8r4uhyth)
+- **Hex**: [`0xBaE9A7A2210F94511F5050348251d0d7113E2cE3`](https://evm.evmos.dev/address/0xBaE9A7A2210F94511F5050348251d0d7113E2cE3/transactions)

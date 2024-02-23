@@ -1,0 +1,76 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "^/"
+        },
+        {
+            "pattern": "^#"
+        },
+        {
+            "pattern": "^./"
+        },
+        {
+            "pattern": "^http://localhost:8877"
+        },
+        {
+            "pattern": "^http://localhost:9090"
+        },
+        {
+            "pattern": "^http://docs.serv.services"
+        },
+        {
+            "pattern": "^http://forum.serv.services"
+        },
+        {
+            "pattern": "^http://docs.serv.services"
+        },
+        {
+            "pattern": "^http://docs.tendermint.org"
+        },
+        {
+            "pattern": "^http://docs.cosmos.network"
+        },
+        {
+            "pattern": "^https://www.yogurt.rocks/faucet/"
+        },
+        {
+            "pattern": "^https://en.wikipedia.org"
+        },
+        {
+            "pattern": "^https://immunefi.com/bounty/evmos"
+        },
+        {
+            "pattern": "^https://github.com/servprotocolorg"
+        },
+        {
+            "pattern": "^https://github.com/tendermint"
+        },
+        {
+            "pattern": "^https://eips.ethereum.org"
+        },
+        {
+            "pattern": "^https://medium.com"
+        },
+        {
+            "pattern": "^https://docs.docker.com"
+        },
+        {
+            "pattern": "^https://api.evmos.dev"
+        },
+        {
+            "pattern": "^https://api.evmos.org"
+        },
+        {
+            "pattern": "^https://www.keplr.app"
+        },
+        {
+            "pattern": "^https://metamask.io"
+        },
+        {
+            "pattern": "^https://evm.evmos.dev"
+        }
+  ],
+    "retryOn429": true,
+    "retryCount": 3,
+    "fallbackRetryDelay": "20s"
+}

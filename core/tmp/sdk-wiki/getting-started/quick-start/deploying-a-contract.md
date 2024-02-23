@@ -1,2 +1,0 @@
-# Deploying a contract
-

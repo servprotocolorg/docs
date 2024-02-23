@@ -1,0 +1,90 @@
+---
+sidebar_position: 1
+---
+
+# Networks
+
+## Public Available Endpoints
+
+Below is a list of publicly available endpoints that you can use to connect to the SERV mainnet and
+public testnets:
+
+:::tip
+You can also use [chainlist.org](https://chainlist.org/) to add the node directly to [Metamask](./../../use/connect-your-wallet/metamask#automatic-import).
+:::
+
+:::note
+If you are searching for the protobuf interfaces, head over [here](https://buf.build/evmos).
+:::
+
+### Mainnet
+
+SERV:TODO UPDATE THIS LIST!
+
+| Address                                       | Category               | Maintainer                              | Node Type  |
+| --------------------------------------------- | ---------------------- | --------------------------------------- | -----------|
+| `https://grpc.bd.evmos.org:9090`              | `Cosmos` `gRPC`        | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://rest.bd.evmos.org:1317`              | `Cosmos` `REST`        | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://tendermint.bd.evmos.org:26657`       | `Tendermint` `RPC`     | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://eth.bd.evmos.org:8545`               | `Ethereum` `JSON-RPC`  | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `wss://eth.bd.evmos.org:8546`                 | `Ethereum` `Websocket` | [Blockdaemon](https://blockdaemon.com/) | --  |
+| `https://evmos-json-rpc.stakely.io`           | `Ethereum` `JSON-RPC`  | [Stakely](https://stakely.io/)          | Pruned  |
+| `https://evmos-rpc.stakely.io`                | `Cosmos` `RPC`         | [Stakely](https://stakely.io/)          | Pruned  |
+| `https://evmos-lcd.stakely.io`                | `Cosmos` `REST`        | [Stakely](https://stakely.io/)          | Pruned  |
+| `https://jsonrpc-evmos-ia.cosmosia.notional.ventures/` | `Ethereum` `JSON-RPC`  | [Notional](https://notional.ventures/)  | Pruned  |
+| `https://rpc-evmos-ia.cosmosia.notional.ventures:443`  | `Tendermint` `RPC`     | [Notional](https://notional.ventures/)  | Pruned  |
+| `https://grpc-evmos-ia.cosmosia.notional.ventures:443` | `Tendermint` `gRPC`    | [Notional](https://notional.ventures/)  | Pruned  |
+| `https://api-evmos-ia.cosmosia.notional.ventures:443`  | `Tendermint` `RPC`     | [Notional](https://notional.ventures/)  | Pruned  |
+| `https://rpc.evmos.nodestake.top`             | `Tendermint` `RPC`     | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://grpc.evmos.nodestake.top`            | `Cosmos` `gRPC`        | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://api.evmos.nodestake.top`             | `Cosmos` `REST`        | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://jsonrpc.evmos.nodestake.top`         | `Ethereum` `JSON-RPC`  | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://rpc.evmos.chaintools.tech/`          | `Tendermint` `RPC`     | [ChainTools](https://chaintools.tech/)  | Pruned  |
+| `https://evmos.grpcui.chaintools.host`        | `Cosmos` `gRPC`        | [ChainTools](https://chaintools.tech/)  | Pruned  |
+| `https://api.evmos.chaintools.tech/`          | `Tendermint` `API`     | [ChainTools](https://chaintools.tech/)  | Pruned  |
+| `https://rpc.evmos.silknodes.io`              | `Tendermint` `RPC`     | [Silk Nodes](https://silknodes.io/)     | Pruned  |
+| `https://grpc.evmos.silknodes.io`             | `Cosmos` `gRPC`        | [Silk Nodes](https://silknodes.io/)     | Pruned  |
+| `https://api.evmos.silknodes.io`              | `Cosmos` `REST`        | [Silk Nodes](https://silknodes.io/)     | Pruned  |
+| `https://evmos-mainnet.public.blastapi.io`    | `Ethereum` `JSON-RPC`  | [BLAST](https://blastapi.io/)           | Pruned  |
+| `wss://evmos-mainnet.public.blastapi.io`      | `Ethereum` `Websocket` | [BLAST](https://blastapi.io/)           | Pruned  |
+| `https://evmos-evm.publicnode.com`            | `Ethereum` `JSON-RPC`  | [PublicNode (by Allnodes)](https://evmos.publicnode.com/) | Pruned  |
+| `https://evmos-rpc.publicnode.com`            | `Tendermint` `RPC`     | [PublicNode (by Allnodes)](https://evmos.publicnode.com/) | Pruned  |
+| `https://evmos-rest.publicnode.com`           | `Cosmos` `REST`        | [PublicNode (by Allnodes)](https://evmos.publicnode.com/) | Pruned  |
+| `https://evmos-api.validatrium.club`           | `Tendermint` `API`        | [Validatrium](https://validatrium.com/) | Pruned  |
+| `https://evmos-rpc.validatrium.club`           | `Tendermint` `RPC`        | [Validatrium](https://validatrium.com/) | Pruned  |
+| `https://evmos-rpc.gateway.pokt.network`      | `Ethereum` `JSON-RPC`  | [PocketNetwork](https://www.pokt.network/)  | Pruned  |
+| `https://api-evmos.mms.team:443`              | `Cosmos` `REST`        | [MMS](https://mms.team/) | Pruned  |
+| `https://grpc-evmos.mms.team:443`             | `Cosmos` `gRPC`        | [MMS](https://mms.team/) | Pruned  |
+| `https://rpc-evmos.mms.team:443`              | `Tendermint` `RPC`     | [MMS](https://mms.team/) | Pruned  |
+| `https://jsonrpc-evmos.mms.team:443`          | `Ethereum` `JSON-RPC`  | [MMS](https://mms.team/) | Pruned  |
+| `https://web3endpoints.com/evmos-mainnet`     | `Ethereum` `JSON-RPC`  | [BlockSpaces](https://www.blockspaces.com/web3-infrastructure) | Pruned |
+
+### Testnet
+
+| Address                                      | Category               | Maintainer                              | Node Type  |
+| --------------------------------------------- | ---------------------- | --------------------------------------- | -----------|
+| `https://grpc.bd.evmos.dev:9090`             | `Cosmos` `gRPC`        | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://rest.bd.evmos.dev:1317`             | `Cosmos` `REST`        | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://tendermint.bd.evmos.dev:26657`      | `Tendermint` `RPC`     | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://eth.bd.evmos.dev:8545`              | `Ethereum` `JSON-RPC`  | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `wss://eth.bd.evmos.dev:8546`                | `Ethereum` `Websocket` | [Blockdaemon](https://blockdaemon.com/) |  --     |
+| `https://evmos-testnet-rpc.polkachu.com:443` | `Tendermint` `RPC`     | [Polkachu](https://polkachu.com)        | Pruned  |
+| `https://rpc-t.evmos.nodestake.top`          | `Tendermint` `RPC`     | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://grpc-t.evmos.nodestake.top`         | `Cosmos` `gRPC`        | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://api-t.evmos.nodestake.top`          | `Cosmos` `REST`        | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://jsonrpc-t.evmos.nodestake.top`      | `Ethereum` `JSON-RPC`  | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://evmos-testnet-rpc.qubelabs.io`      | `Tendermint` `RPC`     | [Qubelabs](https://qubelabs.io/)        | Pruned  |
+| `https://evmos-testnet-lcd.qubelabs.io`      | `Cosmos` `REST`        | [Qubelabs](https://qubelabs.io/)        | Pruned  |
+| `https://evmos-testnet-grpc.qubelabs.io:9094`     | `Cosmos` `gRPC`        | [Qubelabs](https://qubelabs.io/)        | Pruned |
+
+## On-Demand Services
+
+### Lava
+
+Lava is the open standard for blockchain RPC and APIs. We make it easy for developers to build web3 applications using blockchain data.
+The Lava Gateway is a simplified web interface that gives developers instant access to blockchain data. The Gateway uses our Server Kit to provide a hosted point of access for developers looking for RPC through the Lava Network. This allows users to manage and configure Web3 APIs through an intuitive controls directly from the browser. While the Lava Server Kit and SDK give greater control and permissionlessness, the Lava Gateway provides the same access to our underlying network with additional niceties such as project management tools and user accounts. This means anyone, regardless of technical acumen, can easily use Lava.
+
+- [Docs](https://docs.lavanet.xyz/)
+- Gateway [signup](https://accounts.lavanet.xyz/) is developers way to access Lava's RPC services.
+- [Gateway tutorial](https://docs.lavanet.xyz/gateway-getting-started)
+- Supports testnet and mainnet

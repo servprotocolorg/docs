@@ -1,33 +1,29 @@
-# Website
+# SERV Docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Welcome to the official SERV Developer Docs. The official deployment is located [here](https://docs.serv.services).
+The official codebase is located [here](https://github.com/servprotocolorg/serv).
 
-### Installation
+[License](./LICENSE) is GNU Lesser General Public License v3.0.
 
-```
-$ yarn
-```
+## Quick Start
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+Install dependencies:
 
 ```
-$ yarn build
+npm install
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
+Build and serve documentation
 
 ```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+npm run start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Contributing
+
+Contributing to the docs is easy. head over to our [Contributing Guide](./CONTRIBUTING.md) for more information.
+
+## Issues
+
+If you found any issues with our docs, please feel free to submit a [New Issue](https://github.com/servprotocolorg/docs/issues)
+and we will look into it. Please be as descriptive as possible and include any images.
