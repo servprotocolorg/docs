@@ -77,12 +77,11 @@ we recommend understanding the following concepts:
 ## Contributing
 
 There are several ways to contribute to the SERV core protocol. To get some hands-on experience,
-we recommend you spin up a local SERV node using the [SERV CLI](evmos-cli/index.md)
+we recommend you spin up a local SERV node using the SERV CLI
 and interact with it through queries and transactions using the supported [clients](../develop/api#clients).
 
 Then if you're hooked you can
 
 * Contribute open-source to [issues on GitHub](https://github.com/servprotocolorg/serv/issues)
 using the [SERV Contributor Guideline](https://github.com/servprotocolorg/serv/blob/main/CONTRIBUTING.md)
-<!-- * Apply to [open positions at SERV](https://boards.eu.greenhouse.io/evmos) -->
 * Search for [bugs and earn a bounty](bugs.md)

@@ -240,7 +240,7 @@ const config = {
       metadata: [
         {
           name: "SERV Docs", 
-          content: "Official SERV Docs. Come discover why we are the the home for native, cross-chain applications."
+          content: "Official SERV Docs. Come discover why we are the the home for perpetual interactive data."
         },
         {
           name: "author",
@@ -248,7 +248,7 @@ const config = {
         },
         {
           name: "keywords",
-          content: "EMM, cross-chain, Cosmos SDK, IBC, fast-finality, native, cross-chain applications, EVM on Cosmos"
+          content: "EMM, cross-chain, Cosmos SDK, IBC, fast-finality, perpetual interactive data, EVM on Cosmos"
         },
         {
           name: "viewport",

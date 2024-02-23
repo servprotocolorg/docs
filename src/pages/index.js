@@ -29,18 +29,18 @@ function Home() {
               <Card
                 to="./use"
                 header={{
-                  label: "☄️ Learn about SERV",
+                  label: "🫡 Learn about SERV",
                 }}
                 body={{
                   label:
-                    "Discover why SERV is the flagship EVM on the Cosmos Ecosystem",
+                    "Discover why SERV is built to be a perpetual data layer for the world's data",
                 }}
               />
 
               <Card
                 to="./validate"
                 header={{
-                  label: "😎 Become a Validator",
+                  label: "🧑‍💻 Become a Validator",
                 }}
                 body={{
                   label:
