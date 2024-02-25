@@ -1,7 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
+const lightCodeTheme = require('prism-react-renderer/themes/vsDark');
+
 const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 
 function defineSection(section, options = {}) {
@@ -54,11 +55,11 @@ const config = {
   customFields: {
     project: {
       name: "SERV",
-      denom: "SERV",
+      denom: "Serv",
       ticker: "SERV",
       binary: "servnode",
-      testnet_denom: "SERV",
-      testnet_ticker: "SERV",
+      testnet_denom: "aservo",
+      testnet_ticker: "aservo",
       rpc_url: "https://rpc.serv.services",
       rpc_url_testnet: "https://rpc.serv.services",
       rpc_url_local: "http://localhost:8545/",
@@ -81,6 +82,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        
         docs: {
           path: 'docs/home',
           // routeBasePath: '/',
@@ -88,8 +90,8 @@ const config = {
           breadcrumbs: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+           editUrl:
+             'https://github.com/servprotocolorg/docs/',
         },
         blog: false,
         theme: {
@@ -130,6 +132,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: 'SERV Docs',
         logo: {
