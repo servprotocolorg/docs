@@ -236,6 +236,10 @@ const config = {
                 label: 'SERV GitHub',
                 href: 'https://github.com/servprotocolorg',
               },
+              {
+                label: 'SERV Docs GitHub',
+                href: 'https://github.com/servprotocolorg/docs',
+              },
             ],
           },
         ],
