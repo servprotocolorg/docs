@@ -178,8 +178,8 @@ const config = {
           },
           {
             position: 'right',
-            label: 'App',
-            to: 'https://app.serv.services',
+            label: 'SERV Hub',
+            to: 'https://hub.serv.services',
           },
           {
             href: 'https://github.com/servprotocolorg/serv',
