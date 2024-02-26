@@ -212,15 +212,15 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Telegram',
+                label: 'Telegram ',
                 href: 'https://t.me/+pCUVkj9zd4s0MzIx',
               },
               {
-                label: 'Discord',
+                label: 'Discord ',
                 href: 'https://discord.gg/cXv3SnmegZ',
               },
               {
-                label: 'Twitter',
+                label: 'Twitter ',
                 href: 'https://twitter.com/ServProtocol',
               },
             ],
@@ -239,7 +239,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Built with ❤️ by the SERV Protocol Founding Team. © ${new Date().getFullYear()} All rights reserved.`,
+        copyright: `Built to SERV 🫡 by the SERV Protocol Founding Team. © ${new Date().getFullYear()} All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
