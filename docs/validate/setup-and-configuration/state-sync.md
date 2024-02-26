@@ -141,7 +141,7 @@ Once a few nodes in a network have taken state sync snapshots, new nodes can joi
 
 The trusted hash must be obtained from a trusted source (eg. a block explorer), but the RPC servers do not need to be trusted. Tendermint will use the hash to obtain trusted app hashes from the blockchain in order to verify restored application snapshots. The app hash and corresponding height are the only pieces of information that can be trusted when restoring snapshots. Everything else can be forged by adversaries.
 
-In this guide we use Ubuntu 20.04
+In this guide we use Ubuntu 22.04
 
 ### Prepare system
 

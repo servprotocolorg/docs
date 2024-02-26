@@ -13,7 +13,7 @@ but want to ensure the correct dependencies are used by building the binary insi
 then go ahead to the section on [building the SERV binary with Docker](#building-the-binary-with-docker).
 
 :::note
-The given instructions have been tested on *Ubuntu 18.04.2 LTS* with *Docker 20.10.2* and *macOS 13.2.1* with *Docker 20.10.22*.
+The given instructions have been tested on *Ubuntu 22.04 LTS* with *Docker 20.10.2* and *macOS 13.2.1* with *Docker 20.10.22*.
 :::
 
 ## Prerequisites
