@@ -87,13 +87,13 @@ servnode config
 
 We can make changes to the default settings upon our choices, so it allows users to set the configuration beforehand all at once, so it would be ready with the same config afterward.
 
-For example, the chain identifier can be changed to `serv_43970-4` from a blank name by using:
+For example, the chain identifier can be changed to `serv_43970-1` from a blank name by using:
 
 ```bash
-servnode config "chain-id" serv_43970-4
+servnode config "chain-id" serv_43970-1
 servnode config
 {
- "chain-id": "serv_43970-4",
+ "chain-id": "serv_43970-1",
  "keyring-backend": "os",
  "output": "text",
  "node": "tcp://localhost:26657",
@@ -113,7 +113,7 @@ Alternatively, we can directly make the changes to the config values in one plac
 
 # The network chain ID
 
-chain-id = "serv_43970-4"
+chain-id = "serv_43970-1"
 
 # The keyring's backend, where the keys are stored (os|file|kwallet|pass|test|memory)
 

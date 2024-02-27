@@ -35,7 +35,7 @@ See the Official [Chain IDs](./../protocol/concepts/chain-id#official-chain-ids)
 :::
 
 ```bash
-servnode config chain-id serv_43970-4
+servnode config chain-id serv_43970-1
 ```
 
 ## Initialize Node
@@ -43,7 +43,7 @@ servnode config chain-id serv_43970-4
 We need to initialize the node to create all the necessary validator and node configuration files:
 
 ```bash
-servnode init <your_custom_moniker> --chain-id serv_43970-4
+servnode init <your_custom_moniker> --chain-id serv_43970-1
 ```
 
 :::danger
@@ -57,13 +57,13 @@ In the `config` directory, the most important files for configuration are `app.t
 
 ### Copy the Genesis File
 
-Check the `genesis.json` file from the [`archive`](https://archive.evmos.dev/serv_43970-4/genesis.json)
+Check the `genesis.json` file from the [`archive`](https://archive.evmos.dev/serv_43970-1/genesis.json)
  and copy it over to the `config` directory: `~/.serv/config/genesis.json`. This is
  a genesis file with the chain-id and genesis accounts balances.
 
 ```bash
 sudo apt install -y unzip wget
-wget -P ~/.serv/config https://archive.evmos.dev/serv_43970-4/genesis.json
+wget -P ~/.serv/config https://archive.evmos.dev/serv_43970-1/genesis.json
 ```
 
 Then verify the correctness of the genesis configuration file:
@@ -115,7 +115,7 @@ A list of available persistent peers is also available in the `#find-peers` chan
  file in the `PEERS` variable by running the following command:
 
 ```bash
-PEERS=`curl -sL https://raw.githubusercontent.com/evmos/testnets/main/serv_43970-4/peers.txt | sort -R | head -n 10 | awk '{print $1}' | paste -s -d, -`
+PEERS=`curl -sL https://raw.githubusercontent.com/evmos/testnets/main/serv_43970-1/peers.txt | sort -R | head -n 10 | awk '{print $1}' | paste -s -d, -`
 ```
 
 Use `sed` to include them into the configuration. You can also add them manually:

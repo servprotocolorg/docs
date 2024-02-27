@@ -106,7 +106,7 @@ servnode tx staking create-validator
 --commission-max-change-rate="0.01"
 --min-self-delegation "1"
 --moniker "validator"
---chain-id "serv_43970-4"
+--chain-id "serv_43970-1"
 --gas auto
 --node tcp://127.0.0.1:26647
 ```

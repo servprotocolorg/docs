@@ -86,7 +86,7 @@ servnode tx bank send \
     test1 \
     sx1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     10000000000000000000aservo \
-    --chain-id=serv_43970-4 \
+    --chain-id=serv_43970-1 \
     --gas=auto \
     --fees=1000000aservo \
     --broadcast-mode=block
@@ -103,7 +103,7 @@ servnode tx bank send \
     5000000000000000000aservo \
     --gas=200000 \
     --fees=1000000aservo \
-    --chain-id=serv_43970-4 \
+    --chain-id=serv_43970-1 \
     --generate-only > unsignedTx.json
 ```
 
@@ -158,7 +158,7 @@ servnode tx sign \
     --multisig=sx1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     --from=test1 \
     --output-document=test1sig.json \
-    --chain-id=serv_43970-4
+    --chain-id=serv_43970-1
 ```
 
 ```sh
@@ -167,7 +167,7 @@ servnode tx sign \
     --multisig=sx1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     --from=test2 \
     --output-document=test2sig.json \
-    --chain-id=serv_43970-4
+    --chain-id=serv_43970-1
 ```
 
 ### Step 4: Create multisignature
@@ -180,7 +180,7 @@ servnode tx multisign \
     multi \
     test1sig.json test2sig.json \
     --output-document=signedTx.json \
-    --chain-id=serv_43970-4
+    --chain-id=serv_43970-1
 ```
 
 The TX is now signed:
@@ -272,6 +272,6 @@ The TX is now signed:
 
 ```sh
 servnode tx broadcast signedTx.json \
-    --chain-id=serv_43970-4 \
+    --chain-id=serv_43970-1 \
     --broadcast-mode=block
 ```
