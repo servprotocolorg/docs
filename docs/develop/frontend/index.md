@@ -18,9 +18,7 @@ provider and write data to it with a signer. They need to choose the right netwo
 that the wallet is on the same network.
 
  To develop dApps, it is essential to know how to interact with blockchain programmatically and understand the software
-development aspect of it. Some applications build to leverage the SERV Network involves
-[Orbital Apes](https://www.orbitalapes.com), [SpaceFi](https://app.spacefi.io/#/home), and [more](https://evmos.org/ecosystem).
-
+development aspect of it.
 ## Indexers
 
 Indexers are programs that simplify querying and searching through blockchain data. They transform a large amount of
